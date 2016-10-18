@@ -1,3 +1,5 @@
 This file has been erased
+
 Now those are the only lines in this file
+
 Use ex16.py for editing again.
