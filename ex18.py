@@ -15,6 +15,7 @@ def print_one(arg1):
 def print_none():
     print "I got nothin'."
 
+#calling all functions
 
 print_two("Zed","Shaw")
 print_two_again("Zed","Shaw")
