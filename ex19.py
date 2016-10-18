@@ -23,3 +23,17 @@ cheese_and_crackers(10 + 20, 5 + 6)
 
 print "And we can combine the two, varibles and math:"
 cheese_and_crackers(amount_of_cheese + 100, amount_of_crackers + 1000)
+
+#My own function
+def print_something():
+    print "Something\n"
+    print "Lol\n"
+    print "Kiddin\n"
+    print "Enter the amount of cheeses and crackers:\n"
+    x = raw_input("cheeses: ")
+    y = raw_input("crackers: ")
+    z = (int(x) + int(y))/10
+    print "So according to my calculations %r amount of cheeses and %r amount of crackers will last %2.f hours" % (x ,y ,z)
+
+
+print_something()
