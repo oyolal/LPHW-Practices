@@ -40,7 +40,7 @@ for state, abbr in states.items():
 print "-" * 20
 state = states.get('Texas', None)
 #Upper code will give us state = false
-#therefore down code will execute because it fits to the
+#therefore below code will execute because it fits to the
 #requirements.
 if not state:
     print "Sorry, no Texas."
